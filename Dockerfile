@@ -30,4 +30,4 @@ EXPOSE 8080
 #CMD 指令，容器启动时执行的命令
 #启动 Nginx 并使其保持在前台运行 
 #CMD 一般是保持运行的前台命令，命令退出时容器也会退出 
-CMD["nginx","-g", "pid/tmp/nginx.pid;daemonoff;"]
+#CMD["nginx","-g", "pid/tmp/nginx.pid;daemonoff;"]
