@@ -23,7 +23,7 @@ RUN ln-sf/dev/stdout/var/log/nginx/access.log\ &&ln-sf/dev/stderr/var/log/nginx/
 
 #COPY 指令复制主机的文件到镜像中 （在这里当前路径就是 repo 根目录） 
 #将 2048 项目的所有文件加入到 Nginx 静态资源目录里 
-COPY./usr/share/nginx/html
+COPY ./usr/share/nginx/html
 
 #EXPOSE：指定容器监听的端口 
 EXPOSE 8080
