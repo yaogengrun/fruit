@@ -11,7 +11,7 @@ MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
 #安装 nginx 
 
 RUN apk --update add nginx
-RUN apt install python==3.7
+RUN apt install python
 RUN pip install tensorflow==1.14
 RUN pip install numpy==2.1.5
 
