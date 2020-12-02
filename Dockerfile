@@ -1,7 +1,7 @@
 #FROM 指令指定基础镜像 
 #比较常用的基础镜像有 ubuntu，centos。这里使用了一个极小的基础镜像 alpine 
 #FROM alpine:latest
-FROM daocloud.io/nginx:1.11-alpine
+FROM alpine:latest
 
 
 #MAINTAINER 指令用于将镜像制作者相关的信息写入到镜像中 
